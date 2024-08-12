@@ -1,10 +1,10 @@
 /* GET 'home' page */
 const homelist = (req, res) => {
     res.render('locations-list', {
-    title: 'Loc8r - find a place to work with wifi',
+    title: 'Online Ecomerce',
     pageHeader: {
-    title: 'Locr',
-    strapline: 'Find places to work with wifi near you!'
+    title: 'Online Ecomerce',
+    strapline: 'find the best pair to wear'
     },
     locations: [{
     name: 'Starcups',
